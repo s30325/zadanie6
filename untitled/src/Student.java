@@ -49,7 +49,8 @@ public void promoteNextSemester(){
             studentStatus = "Absolwent";
         }}
         else{
-            setCurrentSemester(1);
+              setCurrentSemester(currentStudyPrograme.getSemesterNumber());
+            setStudentITNnumber(0);
         }
     }
 
